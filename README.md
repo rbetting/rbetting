@@ -34,6 +34,6 @@ The rest are on [Google Scholar](https://scholar.google.com/citations?user=DSNZb
 - **ML:** PyTorch, reinforcement learning, contextual bandits, Gaussian processes, computer vision
 - **Infrastructure:** Linux, AWS, Docker/Podman, Jenkins, Cosign
 
-## Outside work
+## Languages and travel
 
-I speak Dutch, English, Russian and German, some Spanish, and I'm learning Mandarin. I like to travel.
+I speak Dutch, English, German and Russian (I did a summer language course in Voronezh in 2014), plus some Spanish. I'm learning Mandarin. In 2025 I spent four weeks in China, including a road trip through Gansu and Qinghai: Zhangye's rainbow mountains, Dunhuang, and the salt lakes of the Qaidam basin.
