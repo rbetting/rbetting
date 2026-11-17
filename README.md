@@ -1,54 +1,39 @@
 # River Betting
 
-I work on making ML and HPC workloads use less compute. I did my PhD in computer science at
-Erasmus University Rotterdam (2025) on recommending cloud resources for neuroscience and other
-HPC applications.
+Software engineer at [SYS](https://www.sys.nl), based in Delft. PhD in computer science from Erasmus University Rotterdam.
 
-I'm a software engineer at [SYS](https://www.sys.nl), a small Dutch company that builds and
-supports [DiSy](https://www.disy.nl), a patient-record and practice-management application for
-outpatient clinics and medical specialists. I set up self-hosted LLM inference on a Mac Studio for
-our coding agents and benchmarked which open-weight models can actually finish multi-step coding
-tasks: the best setup passed 65 of 66 hidden tests, the others 47-59.
+[LinkedIn](https://www.linkedin.com/in/revbetting/) · [Google Scholar](https://scholar.google.com/citations?user=DSNZb_wAAAAJ) · river@riverbetting.me
 
-## Current work
+My research was about matching ML and HPC workloads to the right cloud hardware, so they cost less and use less compute. These days I work on [DiSy](https://www.disy.nl), a patient-record and practice-management application for outpatient clinics and medical specialists, and on running LLMs on our own hardware.
 
-- Learning how transformers and LLM inference work under the hood: vLLM, quantization, and so on.
-- Studying for the CKA (Certified Kubernetes Administrator). The exam is in March 2027.
+## What I'm working on
 
-## Publications
+- **Self-hosted LLM inference.** I run open-weight models on a Mac Studio for our coding agents and benchmarked which ones can actually finish multi-step coding tasks. The best setup passed 65 of 66 hidden tests; the others scored between 47 and 59.
+- **LLM inference internals.** Transformers, vLLM, quantization: how it all works under the hood.
+- **Kubernetes.** I'm studying for the CKA and taking the exam in March 2027.
 
-A selection; the full list is on [Google Scholar](https://scholar.google.com/citations?user=DSNZb_wAAAAJ).
+## Research
 
-Resource recommendation for cloud HPC and AI (the Oikonomos line, which became my PhD):
+| Year | Paper | Venue |
+| ---- | ----- | ----- |
+| 2026 | [Oikonomos-II+](https://ieeexplore.ieee.org/abstract/document/11478011): a reinforcement-learning cloud resource recommender for HPC and AI workloads | IEEE Transactions on Cloud Computing |
+| 2025 | [Resource recommendation for neuroscience and general HPC applications in cloud environments](https://pure.eur.nl/en/publications/resource-recommendation-for-neuroscience-and-general-hpc-applicat/) | PhD thesis |
+| 2025 | [SimHH](https://scholar.google.com/citations?view_op=view_citation&user=DSNZb_wAAAAJ&citation_for_view=DSNZb_wAAAAJ:UeHWp8X0CEIC): a multi-GPU simulator for extended Hodgkin-Huxley neural networks | IEEE Access |
+| 2023 | [Oikonomos-II](https://scholar.google.com/citations?view_op=view_citation&user=DSNZb_wAAAAJ&citation_for_view=DSNZb_wAAAAJ:2osOgNQ5qMEC): a reinforcement-learning resource recommender for cloud HPC | HiPC |
+| 2020 | [WhiskEras](https://scholar.google.com/citations?view_op=view_citation&user=DSNZb_wAAAAJ&citation_for_view=DSNZb_wAAAAJ:u5HHmVD_uO8C): an algorithm for accurate whisker tracking in rodent videos | Frontiers in Cellular Neuroscience |
 
-- [Oikonomos-II+: a Reinforcement-Learning, Cloud Resource Recommender for HPC & AI Workloads](https://ieeexplore.ieee.org/abstract/document/11478011).
-  IEEE Transactions on Cloud Computing, 2026.
-- [Resource recommendation for neuroscience and general HPC applications in cloud environments](https://pure.eur.nl/en/publications/resource-recommendation-for-neuroscience-and-general-hpc-applicat/).
-  PhD thesis, Erasmus University Rotterdam, 2025.
-- [Oikonomos-II: A reinforcement-learning, resource-recommendation system for cloud HPC](https://scholar.google.com/citations?view_op=view_citation&user=DSNZb_wAAAAJ&citation_for_view=DSNZb_wAAAAJ:2osOgNQ5qMEC).
-  HiPC 2023.
+The rest are on [Google Scholar](https://scholar.google.com/citations?user=DSNZb_wAAAAJ).
 
-Tools for neuroscience research:
+## Side project
 
-- [SimHH: A versatile, multi-GPU simulator for extended Hodgkin-Huxley networks](https://scholar.google.com/citations?view_op=view_citation&user=DSNZb_wAAAAJ&citation_for_view=DSNZb_wAAAAJ:UeHWp8X0CEIC).
-  IEEE Access, 2025.
-- [WhiskEras: a new algorithm for accurate whisker tracking](https://scholar.google.com/citations?view_op=view_citation&user=DSNZb_wAAAAJ&citation_for_view=DSNZb_wAAAAJ:u5HHmVD_uO8C).
-  Frontiers in Cellular Neuroscience, 2020.
-
-## Side projects
-
-- **Clover**: an LLM assistant for email and calendar. Its permissions are restricted, and it asks
-  a human before it acts.
+**Clover** is an LLM assistant for email and calendar. Its permissions are restricted, and it asks a human before it acts.
 
 ## Tools
 
-Python, C/C++, CUDA, SQL and Bash. PyTorch, RL and contextual bandits, Gaussian processes, and
-computer vision. On the infrastructure side: Linux, AWS, Docker/Podman, Jenkins CI/CD, and Cosign
-for signing containers.
+- **Languages:** Python, C/C++, CUDA, SQL, Bash
+- **ML:** PyTorch, reinforcement learning, contextual bandits, Gaussian processes, computer vision
+- **Infrastructure:** Linux, AWS, Docker/Podman, Jenkins, Cosign
 
 ## Outside work
 
-I speak Dutch, English, Russian, German and some Spanish, and I'm learning Mandarin. I like to
-travel.
-
-[LinkedIn](https://www.linkedin.com/in/revbetting/) · river@riverbetting.me
+I speak Dutch, English, Russian and German, some Spanish, and I'm learning Mandarin. I like to travel.
